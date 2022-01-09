@@ -1,0 +1,14 @@
+{
+  "name": "leetcode-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Kamigami55/leetcode-js.git",
+  "author": "Kamigami55 <eason@easonchang.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1"
+  }
+}
