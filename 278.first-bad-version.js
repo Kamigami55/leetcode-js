@@ -21,8 +21,8 @@
  */
 
 /*
-  Your runtime beats 16.03 % of javascript submissions
-  Your memory usage beats 76.36 % of javascript submissions (38.5 MB)
+  Your runtime beats 23.16 % of javascript submissions
+  Your memory usage beats 76.36 % of javascript submissions (38.4 MB)
  */
 var solution = function (isBadVersion) {
   /**
@@ -33,16 +33,16 @@ var solution = function (isBadVersion) {
     if (n === 1) return 1
     let left = 1,
       right = n
-    while (right - left >= 2) {
+    while (left < right) {
       let mid = Math.floor((left + right) / 2)
       let isBad = isBadVersion(mid)
       if (isBad) {
         right = mid
       } else {
-        left = mid
+        left = mid + 1
       }
     }
-    return isBadVersion(left) ? left : right
+    return left
   }
 }
 // @lc code=end
