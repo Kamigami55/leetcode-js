@@ -9,6 +9,11 @@
  * @param {number[]} seats
  * @return {number}
  */
+/*
+81/81 cases passed (109 ms)
+Your runtime beats 36.22 % of javascript submissions
+Your memory usage beats 65.31 % of javascript submissions (40.2 MB)
+*/
 var maxDistToClosest = function (seats) {
   // [1,0,0,0,1,0,1]
   let ans = 0
