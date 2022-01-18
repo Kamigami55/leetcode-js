@@ -16,5 +16,6 @@ module.exports = {
     'prettier/prettier': ['error', {}, { usePrettierrc: true }], // Use our .prettierrc file as source
     'no-constant-condition': 'off', // Allow for while(true) loops
     'no-unused-vars': 'off', // Allow unused variables
+    'no-undef': 'off', // Allow undefined
   },
 }
