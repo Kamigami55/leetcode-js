@@ -13,9 +13,9 @@
 // TODO Add Divide and conquer solution
 
 /*
-209/209 cases passed (168 ms)
-Your runtime beats 9.81 % of javascript submissions
-Your memory usage beats 40.12 % of javascript submissions (48.9 MB)
+209/209 cases passed (100 ms)
+Your runtime beats 61.21 % of javascript submissions
+Your memory usage beats 19.99 % of javascript submissions (49 MB)
 */
 var maxSubArray = function (nums) {
   let ans = nums[0]
